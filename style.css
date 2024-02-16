@@ -1,4 +1,173 @@
-html {
-    height: 100%;
-    width: 100%;
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--sans-serif);
+    background: #eeeeee;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* NAV BAR */
+li,
+a,
+button {
+  font-family: 'Market Felt', 'Comic Sans MS';
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px 20px 25px;
+  background-color: #231e41;
+}
+
+.logo {
+  cursor: pointer;
+  color: white;
+}
+
+.header-RHS {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar {
+  list-style: none;
+  display: flex;
+  /*Fix shrink issue falling out of place when web browser shrink;*/
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  ;
+}
+
+.nav-bar a {
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+.nav-bar li a:hover {
+  color: #3A4089;
+}
+
+header .join_button {
+  margin-left: 30px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #6f89bf;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+header .join_button:hover {
+  background-color: #657495;
+}
+
+ul {
+  font-size: 12px;
+  padding: initial;
+}
+
+ul li {
+  display: inline-block;
+  white-space: nowrap;
+
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 15px;
+  letter-spacing: 0.5px;
+}
+
+/* Join Party -> user inputs  */
+#join {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sub1 {
+    color: black;
+    font-size: 120px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .comments {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+  
+  }
+  
+  label {
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+    font-size: 9px;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #6f89bf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  
+  }
+  
+  button:hover {
+    background-color: #6c7fa7;
+  }
