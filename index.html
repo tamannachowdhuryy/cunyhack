@@ -34,9 +34,28 @@
             </div>
   
             <div class="input-box">
-              <label for="math_course">What math course do you need to take this semse</label>
+              <label for="math_course">What math course do you need to take this semseter?</label>
               <input type="text" id="math_course-insertion" required>
             </div>
+
+            <div class="input-box">
+              <label for="pluralism_course">What other classes do you need?</label>
+              <select id="pluralism_course-insertion" class="styled-select" required multiple>
+                  <option value="groupA">Pluralism & Diversity Requirement: Group A</option>
+                  <option value="groupB">Pluralism & Diversity Requirement: Group B</option>
+                  <option value="groupC">Pluralism & Diversity Requirement: Group C</option>
+                  <option value="groupD">Pluralism & Diversity Requirement: Group D</option>
+                  <option value="groupE">English Composition 1</option>
+                  <option value="groupF">English Composition 2</option>
+                  <option value="groupG">Science</option>
+                  <option value="groupH">Creative Expression</option>
+                  <option value="groupI">World Culture and Global Issues</option>
+                  <option value="groupJ">Mathematical and Quantitative Reasoning</option>
+                  <option value="groupK">U.S. Experiences in Its Diversity</option>
+                  <option value="groupL">Individual and Society</option>
+                  <option value="groupm">Scientific World</option>
+              </select>
+          </div>
   
             <!-- Enter button -->
             <button type = "button" id = "songButton" onclick="submitSongs()">Enter</button>
