@@ -105,8 +105,8 @@ ul li a {
   letter-spacing: 0.5px;
 }
 
-/* Join Party -> user inputs  */
-#join {
+/* CALANDER -> user inputs  */
+#question {
     text-align: center;
     font-size: 12px;
   }
@@ -171,3 +171,20 @@ ul li a {
   button:hover {
     background-color: #6c7fa7;
   }
+   /* Style the select element */
+   .styled-select {
+    display: block;
+    width: 100%;
+    max-width: 300px; /* Adjust the maximum width as needed */
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Style the options within the select element */
+.styled-select option {
+    padding: 10px;
+}
