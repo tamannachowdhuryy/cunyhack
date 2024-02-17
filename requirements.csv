@@ -1,0 +1,326 @@
+Course,Title,Requirement
+ENGL 12000,Expository Writing,English Composition 1
+ENGL 22000,Intro:Writing about Literature,English Composition 2
+AFPRL 23800,Intro Lit African Diaspora,English Composition 2
+ASIAN 22100,Intro: Writ About Asian Am Lit,English Composition 2
+ENGL 12000,Expository Writing,English Composition 2
+ENGL 22000,Intro:Writing about Literature,English Composition 2
+MEDIA 21100,News Literacy in a Digital Age,English Composition 2
+CSCI 12100,Computers & Money: Quant,Mathematical and Quantitative Reasoning
+ECO 22100,Economic Statistics,Mathematical and Quantitative Reasoning
+MATH 10000,Basic Structures of Math,Mathematical and Quantitative Reasoning
+MATH 10200,Math in Everyday Life,Mathematical and Quantitative Reasoning
+MATH 10400,Math for Elem Educ I,Mathematical and Quantitative Reasoning
+MATH 12400,College Algebra & Trig,Mathematical and Quantitative Reasoning
+MATH 12500,Precalculus,Mathematical and Quantitative Reasoning
+MATH 12550,Precalculus with Workshop,Mathematical and Quantitative Reasoning
+MATH 15000,Calculus I,Mathematical and Quantitative Reasoning
+MATH 15200,Calc for Life and Soc Science,Mathematical and Quantitative Reasoning
+MATH 15500,Calculus 2,Mathematical and Quantitative Reasoning
+STAT 11300,Elem Prob & Stat,Mathematical and Quantitative Reasoning
+STAT 21200,Discrete Probability,Mathematical and Quantitative Reasoning
+STAT 21300,Introduction to Applied Stat,Mathematical and Quantitative Reasoning
+ANTHP 10100,Human Evolution,Life and Physical Sciences
+ANTHP 10500,The Human Species,Life and Physical Sciences
+ASTRO 10200,Lab Explorations in Astronomy,Life and Physical Sciences
+BIOL 10000,Principles of Biology 1,Life and Physical Sciences
+BIOL 10500,Introduction to Genome Biology,Life and Physical Sciences
+BIOL 10700,Biol & Genetics of Personal ID,Life and Physical Sciences
+BIOL 12500,Human Biology,Life and Physical Sciences
+BIOL 15000,CSI:Hunter (Forensic Biology),Life and Physical Sciences
+CHEM 10100,Inquiries - Nature of Matter,Life and Physical Sciences
+CHEM 101LB,Essential of General Chem-Lab,Life and Physical Sciences
+CHEM 10300,General Chemistry 1 (Lab),Life and Physical Sciences
+CHEM 10500,General Chemistry 2 (Lab),Life and Physical Sciences
+CHEM 10600,General Chemistry Lab,Life and Physical Sciences
+CHEM 11100,Chemical Principles,Life and Physical Sciences
+CHEM 12000,Essen Organic Chemistry (Lec),Life and Physical Sciences
+CHEM 12100,Ess of Organic Chemistry -Lab,Life and Physical Sciences
+GEOL 10100,Introductory Geology Lab,Life and Physical Sciences
+PGEOG 13000,Weather and Climate,Life and Physical Sciences
+PHYS 10100,Basic Concepts:Physics Lab,Life and Physical Sciences
+PHYS 11000,Gen Mech-Heat-Snd,Life and Physical Sciences
+PHYS 11100,Gen Mech-Heat-Snd,Life and Physical Sciences
+ANTHC 12700,Methods Archaeological Sci,Scientific World
+ANTHP 10200,Human Variation,Scientific World
+ASTRO 10000,Basic Concepts in Astronomy,Scientific World
+BIOL 10200,Principles of Biology 2,Scientific World
+BIOL 17500,Choreographing Genomics,Scientific World
+CHEM 10000,Essen-General Chemistry (Lec),Scientific World
+CHEM 10200,General Chemistry 1,Scientific World
+CHEM 10400,General Chemistry 2,Scientific World
+CHEM 11200,Thermodynamics & Solution Chem,Scientific World
+CSCI 12000,Introduction to Computers,Scientific World
+CSCI 12700,Introduction: Computer Science,Scientific World
+CSCI 13200,Practical Unix Programming Lab,Scientific World
+CSCI 13300,Programing for Everyone,Scientific World
+GEOL 10000,Introduction to Geology,Scientific World
+GEOL 10500,Intro to Envir Studies,Scientific World
+GEOL 18000,Introduction to Oceanography,Scientific World
+NFS 14100,Nutrition I,Scientific World
+PHILO 17000,Intro Log & Sci Meth,Scientific World
+PHILO 27000,"Philosophy, Science & Culture",Scientific World
+PHYS 10000,Basics Concepts of Physics,Scientific World
+PHYS 12000,Gen Elec-Magnetsm,Scientific World
+PHYS 12100,Gen Elec-Magnetsm,Scientific World
+SCI 11100,"Brains, Minds, and Machines",Scientific World
+ARB 25000,The Arab Novel in Translation,Creative Expression
+ARB 25100,Arab Cinema in Translation,Creative Expression
+ARB 25400,Arabian Night Translation,Creative Expression
+ASIAN 22500,Asian American Art,Creative Expression
+DAN 10200,Dance in Culture,Creative Expression
+DAN 10N00,Design and Dance,Creative Expression
+DAN 23200,Global Dance History,Creative Expression
+ENGL 25001,American Noir,Creative Expression
+ENGL 25031,Sex & Gender Harlem Renaiss,Creative Expression
+ENGL 25032,Shirtwaist Factory,Creative Expression
+ENGL 25033,What Reading does w/the Body,Creative Expression
+ENGL 25034,Meme as Internet Discourse,Creative Expression
+ENGL 25035,Writ Behnd Bars Gulag Cult Leg,Creative Expression
+ENGL 25036,Sp Tp Paranoia in Literature,Creative Expression
+ENGL 25037,American War Stories,Creative Expression
+ENGL 25038,Comic and Graphic Novels,Creative Expression
+ENGL 25039,Narrative Medicine,Creative Expression
+ENGL 25040,Zora Neale Hurston,Creative Expression
+ENGL 25041,Whiteness Studies,Creative Expression
+ENGL 25043,Assimilation in US Literature,Creative Expression
+ENGL 25045,Writers and Artists,Creative Expression
+ENGL 25048,Women and Language,Creative Expression
+ENGL 25049,American Modern Fiction,Creative Expression
+ENGL 25050,Special Topics: Short Story,Creative Expression
+ENGL 25051,Humor in Literature,Creative Expression
+ENGL 25052,The Outsider in Literature,Creative Expression
+ENGL 25053,The American Fifties,Creative Expression
+ENGL 25054,19th Cent British Literature,Creative Expression
+ENGL 25055,Literature on Banned Books,Creative Expression
+ENGL 25056,American Immigrant Literature,Creative Expression
+ENGL 25057,Intro Latin Amer Literature,Creative Expression
+ENGL 25058,Comic Vision,Creative Expression
+ENGL 25059,Tragic Vision,Creative Expression
+ENGL 25060,Holocaust Poetry,Creative Expression
+ENGL 25062,Slf Rprsnt:American Poetry,Creative Expression
+ENGL 25063,Britain & American Drama WW 2,Creative Expression
+ENGL 25064,Oppress & Res in Literature,Creative Expression
+ENGL 25065,The Fantastic in Lit,Creative Expression
+ENGL 25066,Literature and Law,Creative Expression
+ENGL 25067,Heroines,Creative Expression
+ENGL 25068,Natrlst Cty:American Lit & Fl,Creative Expression
+ENGL 25069,19th Century Women Writers,Creative Expression
+ENGL 25070,Jewish-American Literature,Creative Expression
+ENGL 25071,18th Century British Gothic,Creative Expression
+ENGL 25072,Women Centered Literature,Creative Expression
+ENGL 25073,The Moderns,Creative Expression
+ENGL 25074,Arthurian Literature,Creative Expression
+ENGL 25075,Poetic Techniques,Creative Expression
+ENGL 25076,Minority and Colony Literature,Creative Expression
+ENGL 25077,Gender & Gnr: Asian Amer Lit,Creative Expression
+ENGL 25078,Latina Writing,Creative Expression
+ENGL 25079,19th Cent Britain Lit & Art,Creative Expression
+ENGL 25080,Black Women Literature Artists,Creative Expression
+ENGL 25081,Med Women:Sexuality & Power,Creative Expression
+ENGL 25082,Topic: Irish Literature,Creative Expression
+ENGL 25083,Topics in Literature,Creative Expression
+ENGL 25084,Lt Res to Revblk-Dic,Creative Expression
+ENGL 25085,Cla Txts/Mod Context,Creative Expression
+ENGL 25086,Science Fiction,Creative Expression
+ENGL 25087,Transnational American,Creative Expression
+ENGL 25088,Survey African-Amer Literature,Creative Expression
+ENGL 25089,Race & Class:20th Cent Fiction,Creative Expression
+ENGL 25090,High Fantasy,Creative Expression
+ENGL 25091,Sp Tp:War & Literature Imagin,Creative Expression
+ENGL 25092,Black Women Writers,Creative Expression
+ENGL 25093,Sp Tp:Multiclt Amer Writers,Creative Expression
+ENGL 25094,Poetry and Politics,Creative Expression
+ENGL 25095,Topics in Literature,Creative Expression
+ENGL 25096,Survey Asian American Lit,Creative Expression
+ENGL 25097,U.S. Originals,Creative Expression
+ENGL 25098,Lit: American Values & Ideals,Creative Expression
+ENGL 25099,Topics in Literature,Creative Expression
+ENGL 25145,Playing Detective,Creative Expression
+ENGL 25146,The Literature of Waiting,Creative Expression
+ENGL 25147,Teacher/Student in Literature,Creative Expression
+ENGL 25148,20th Cent African American Lit,Creative Expression
+ENGL 25149,Queer Melancholia,Creative Expression
+ENGL 25150,Rhetoric Pres Speech,Creative Expression
+ENGL 25151,Major Poets,Creative Expression
+ENGL 25152,Language and Literature,Creative Expression
+ENGL 25153,Shakespeare's Roman Plays,Creative Expression
+ENGL 25154,Fiction and Autobiography,Creative Expression
+ENGL 25155,20th Cent Southern Literature,Creative Expression
+ENGL 25156,Wharton & James,Creative Expression
+ENGL 25157,Early 20th Century Fiction,Creative Expression
+ENGL 25158,Reading India,Creative Expression
+ENGL 25159,Mystery Short Story,Creative Expression
+ENGL 25160,Writer as Reporter,Creative Expression
+ENGL 25161,Literary Dublin,Creative Expression
+ENGL 25162,Culture&Literature:Vietnam War,Creative Expression
+ENGL 25163,Prose&Poetry: Great Depression,Creative Expression
+ENGL 25164,American Short Story,Creative Expression
+ENGL 25165,Probing:Female Psyche,Creative Expression
+ENGL 25166,New York Writers,Creative Expression
+ENGL 25168,Amer Trad:Asian Amer Lit,Creative Expression
+ENGL 25169,Writer In his Time,Creative Expression
+ENGL 25170,Topics in Literature,Creative Expression
+ENGL 25171,Modern Sexualities-Literature,Creative Expression
+ENGL 25172,Upton Fiction&Social Disorder,Creative Expression
+ENGL 25173,Literature: Harlem Renaissance,Creative Expression
+ENGL 25174,Amer Women Wtrs:Late 19th Cent,Creative Expression
+ENGL 25175,Topics in Literature,Creative Expression
+ENGL 25176,Creating:American Nation,Creative Expression
+ENGL 25177,Cnstr of Meaning -Lt,Creative Expression
+ENGL 25178,African Amer Writing 1900-1940,Creative Expression
+ENGL 25179,Villains,Creative Expression
+ENGL 25180,Topics in Literature,Creative Expression
+ENGL 25181,Storyteller&Tale,Creative Expression
+ENGL 25182,Preconceptions & Stereotype,Creative Expression
+ENGL 25183,Arab American Literature,Creative Expression
+ENGL 25185,Victorian Women Writers,Creative Expression
+ENGL 25186,Medieval in the Mod.,Creative Expression
+ENGL 25187,Topics in Literature,Creative Expression
+ENGL 25188,Topics in Literature,Creative Expression
+ENGL 25189,Survey Detective Fiction,Creative Expression
+ENGL 25190,Pulitzer Prize Winner,Creative Expression
+ENGL 25191,Politics & The Novel,Creative Expression
+ENGL 25192,Reading Poetry,Creative Expression
+ENGL 25193,Crime And Punishment,Creative Expression
+ENGL 25194,Contending Forces:20th Century,Creative Expression
+ENGL 25195,Victorian Novels & Films,Creative Expression
+ENGL 25196,Roots of Contemp Amer Poetry,Creative Expression
+ENGL 25197,Gender of Modernism,Creative Expression
+ENGL 25198,"Emerson,Thoreau",Creative Expression
+ENGL 25199,1968: Literature of Amer Revol,Creative Expression
+FILM 10100,Introduction to Cinema,Creative Expression
+GERMN 24100,German Fairy Tales,Creative Expression
+HUM 15051,Basic Comm Technique,Creative Expression
+HUM 15054,Thinking Through Poetry,Creative Expression
+HUM 15055,Arts through New York City,Creative Expression
+HUM 15056,Distinguished Living Writers,Creative Expression
+HUM 20100,Explorations in the Arts,Creative Expression
+MUSHL 10100,A Thousand Years of Listening,Creative Expression
+MUSHL 10700,The World of Music,Creative Expression
+MUSTH 10100,Music Theory Fundamentals,Creative Expression
+PHILO 25600,Philosophy and Literature,Creative Expression
+RUSS 25300,Russ Thea: Eng Tran,Creative Expression
+RUSS 29500,Vampires in Lore & Lit,Creative Expression
+RUSS 29600,Nabokov Between Two Cultures,Creative Expression
+THEA 10100,Introduction to Theatre,Creative Expression
+THEA 21100,World Theatre 1,Creative Expression
+THEA 21200,World Theatre II,Creative Expression
+THEA 21300,World Theatre 3,Creative Expression
+ANTHC 10000,Cultural Diversity in the United States,U.S. Experience in Its Diversity
+HIST 15100,Col Era - Civ War,U.S. Experience in Its Diversity
+HIST 15200,U.S. from Civil War to Present,U.S. Experience in Its Diversity
+PHILO 22600,African-American Philosophy,U.S. Experience in Its Diversity
+POLSC 11000,American Gov: Historical Intro,U.S. Experience in Its Diversity
+AFPRL 18200,Culture and Ethnic Identity,World Cultures and Global Issues
+AFPRL 20100,African Hist:Origin 1600 Cent,World Cultures and Global Issues
+AFPRL 20200,African History 1600 Cen-Pres,World Cultures and Global Issues
+AFPRL 20900,Intro: Caribbean History - 1900,World Cultures and Global Issues
+AFPRL 21000,Intro: Caribbean Hist:1900-Pres,World Cultures and Global Issues
+AFPRL 22200,African Civilization,World Cultures and Global Issues
+AFPRL 24300,Puerto Rican Culture,World Cultures and Global Issues
+ANTHC 12600,Intro-Prehistoric Archaeology,World Cultures and Global Issues
+ANTHC 15100,Introduction to Linguistics,World Cultures and Global Issues
+ARB 15000,Intro to Modern Arab Cultures,World Cultures and Global Issues
+ARB 25300,Lit & Culture Muslim Spain,World Cultures and Global Issues
+ARB 25500,Modern Palestinian Culture,World Cultures and Global Issues
+ARB 25600,Modern Arab Theatre,World Cultures and Global Issues
+ARB 25700,Lang & Cult in Contem N Africa,World Cultures and Global Issues
+CHIN 11100,Chinese Culture 1,World Cultures and Global Issues
+CHIN 11200,Chinese Culture II,World Cultures and Global Issues
+CLA 10100,Classical Mythology,World Cultures and Global Issues
+CLA 11000,Greek & Latin Roots of English,World Cultures and Global Issues
+CLA 20100,Greek Civilization,World Cultures and Global Issues
+CLA 20300,Roman Civilization,World Cultures and Global Issues
+CLARC 20400,Introduction: Archaeology,World Cultures and Global Issues
+FREN 24100,Early Fren Civ: Gothic to Rev,World Cultures and Global Issues
+FREN 24200,Modern French Civilization,World Cultures and Global Issues
+GEOG 15000,World Regions Global Context,World Cultures and Global Issues
+HEBR 22100,Modern Israeli Culture,World Cultures and Global Issues
+HEBR 22200,Jewsh Texts/Writngs,World Cultures and Global Issues
+HEBR 22300,Intro Talmudic Lit in Translan,World Cultures and Global Issues
+HEBR 24000,Introduction to Old Testament,World Cultures and Global Issues
+HEBR 25900,Old Testament Religion,World Cultures and Global Issues
+HEBR 29000,Biblical Archaeology,World Cultures and Global Issues
+HEBR 29500,Ancient Hebraic Law,World Cultures and Global Issues
+HIST 11100,World History to 1500,World Cultures and Global Issues
+HIST 11200,World History: 1500-Present,World Cultures and Global Issues
+HIST 11300,20th Century World History,World Cultures and Global Issues
+HIST 12100,Ear Md Eur 1500-1815,World Cultures and Global Issues
+HIST 12200,19th and 20th Century Europe,World Cultures and Global Issues
+HIST 20800,History of the Jews,World Cultures and Global Issues
+HIST 27700,East Asia to 1600,World Cultures and Global Issues
+HIST 27800,"East Asia, 1600 to the Present",World Cultures and Global Issues
+PHILO 21900,Chinese Philosophy,World Cultures and Global Issues
+POLSC 10000,Introduction to Politics,World Cultures and Global Issues
+POLSC 11500,Intro International Relations,World Cultures and Global Issues
+POLSC 25000,Comparing Countries,World Cultures and Global Issues
+POLSC 27000,Intl Relatns: Concptual Fndtns,World Cultures and Global Issues
+REL 21100,Astrology:Wrld Relig,World Cultures and Global Issues
+REL 25100,Asian Religions,World Cultures and Global Issues
+REL 25200,Ancient Near Eastern Religions,World Cultures and Global Issues
+REL 25300,Abrahamic Religions,World Cultures and Global Issues
+REL 25400,Tribal Religions,World Cultures and Global Issues
+REL 25600,Afro-Caribbean Religions,World Cultures and Global Issues
+REL 25700,Rel Anc Cen & Sou Amer,World Cultures and Global Issues
+REL 25800,Rel:Ancient Europe,World Cultures and Global Issues
+REL 32000,Hinduism,World Cultures and Global Issues
+REL 32100,Buddhism,World Cultures and Global Issues
+REL 32200,Islam,World Cultures and Global Issues
+REL 32300,Christianity,World Cultures and Global Issues
+RUSS 15700,The Age of the Great Masters,World Cultures and Global Issues
+RUSS 25500,Trans:Rus Folklore,World Cultures and Global Issues
+RUSS 29300,Folklore in Translation,World Cultures and Global Issues
+RUSS 29400,Folklore and Literature,World Cultures and Global Issues
+SPAN 24100,Civilization of Spain,World Cultures and Global Issues
+AFPRL 10000,Introduction to Black Politics,Individual and Society Social Science
+AFPRL 10300,Conquest & Resistance: PR Exp,Individual and Society Social Science
+AFPRL 10400,Intro to PR & Latino Studies,Individual and Society Social Science
+AFPRL 18100,Language and Ethnic Identity,Individual and Society Social Science
+AFPRL 20500,African-Amer Pol Soc Change,Individual and Society Social Science
+AFPRL 26000,Latinos and Citizenship,Individual and Society Social Science
+ANTHC 10100,Intro to Cultural Anthropology,Individual and Society Social Science
+ASIAN 23002,Asian Amer Comm & Mntl Hlth,Individual and Society Social Science
+ECO 10000,Introduction to Economics,Individual and Society Social Science
+GEOG 10100,People and their Environment,Individual and Society Social Science
+PHILO 10600,"Philosophy, Politics & Society",Individual and Society Social Science
+PHILO 25500,Environmental Philosophy,Individual and Society Social Science
+POLSC 20000,Introduction to Political Idea,Individual and Society Social Science
+SOC 10100,Introduction to Sociology,Individual and Society Social Science
+URBS 10100,Urban Life,Individual and Society Social Science
+URBS 10200,Structure of Urban Region,Individual and Society Social Science
+WGS 10000,Intro Gender/Sex Studies,Individual and Society Social Science
+WGS 12100,Public Spkng in Gender Studies,Individual and Society Social Science
+WGSS 29300,Bathroom Politics,Individual and Society Social Science
+ARTH 11100,Introduction to History of Art,Individual and Society Humanities
+ASIAN 21000,Asians in the United States,Individual and Society Humanities
+CHIN 25100,Modern Chinese Fiction in Tran,Individual and Society Humanities
+CLA 25000,Greek and Roman Tragedy,Individual and Society Humanities
+CLA 25100,Ancient Comedy Translation,Individual and Society Humanities
+CLA 25300,Homer and Virgil,Individual and Society Humanities
+HEBR 21100,Mstpc Medv Hbr Lit,Individual and Society Humanities
+HEBR 29200,The Hebrew Prophets,Individual and Society Humanities
+ITAL 28000,Italian Renaiss,Individual and Society Humanities
+JPN 25100,Japanese Culture Before 1600,Individual and Society Humanities
+MEDIA 18000,Introduction to Media Studies,Individual and Society Humanities
+PHILO 10100,Introduction to Philosophy,Individual and Society Humanities
+PHILO 10400,Intro to Ethics & Moral Judgmt,Individual and Society Humanities
+REL 11000,Nature of Religion,Individual and Society Humanities
+REL 11100,Approaches to Religion,Individual and Society Humanities
+REL 20400,Religious Experience,Individual and Society Humanities
+REL 20500,Faith and Disbelief,Individual and Society Humanities
+REL 20600,Ideas of God,Individual and Society Humanities
+REL 20700,Religious Sources for Morality,Individual and Society Humanities
+REL 20800,Religion and Social Justice,Individual and Society Humanities
+REL 20900,Religion and Human Rights,Individual and Society Humanities
+REL 25500,Religions of Two Gods,Individual and Society Humanities
+REL 27000,Religion and Psychology,Individual and Society Humanities
+RUSS 15600,Culture of Imperial Russia,Individual and Society Humanities
+RUSS 15800,Contemporary Russian Culture,Individual and Society Humanities
+RUSS 25000,19C Russ Lit:Trans,Individual and Society Humanities
+RUSS 25100,Tolstoy & Dostoevsky,Individual and Society Humanities
+RUSS 25200,Mod Russ Lit:Trans,Individual and Society Humanities
+RUSS 25400,Russ Lit:1880-1920,Individual and Society Humanities
+RUSS 26000,Russ Wmn Wtrs in Eng Translat,Individual and Society Humanities
+RUSS 27000,Russian Cinema and Society,Individual and Society Humanities
+RUSS 29700,Russ Urban Novel,Individual and Society Humanities
