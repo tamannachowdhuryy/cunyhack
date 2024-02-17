@@ -7,19 +7,36 @@ function getSelectedOptions() {
     // Now 'selectedValues' is an array containing the values of the selected options
     console.log(selectedValues);
 }
-function submit() {
+function submitForm() {
     // Get values from the form
     var csCourse = document.getElementById('cs_course-insertion').value;
     var mathCourse = document.getElementById('math_course-insertion').value;
-  
 
+    // Get selected values from the hunter_course-insertion select element
+    var hunterCoursesSelect = document.getElementById('hunter_course-insertion');
+    var selectedHunterCourses = Array.from(hunterCoursesSelect.selectedOptions).map(option => option.value);
 
     // Construct the payload
     var payload = {
         "cs_course": csCourse,
         "math_course": mathCourse,
-        
+        "hunter_courses": selectedHunterCourses
     };
 
-   
+    // Make the POST request
+    fetch('http://localhost:8000', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Success:', data);
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+    
 }
