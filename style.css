@@ -34,7 +34,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 25px 20px 25px;
-  background-color: #231e41;
+  background-color: #bdc3c7;
 }
 
 .logo {
@@ -52,11 +52,9 @@ header {
 .nav-bar {
   list-style: none;
   display: flex;
-  /*Fix shrink issue falling out of place when web browser shrink;*/
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  ;
+  align-items: center; /* Remove the extra semicolon here */
 }
 
 .nav-bar a {
@@ -65,8 +63,9 @@ header {
 }
 
 .nav-bar li a:hover {
-  color: #3A4089;
+  color: lightskyblue;
 }
+
 
 header .join_button {
   margin-left: 30px;
@@ -74,7 +73,7 @@ header .join_button {
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  background-color: #6f89bf;
+  background-color: lightskyblue;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
@@ -84,7 +83,7 @@ header .join_button {
 }
 
 header .join_button:hover {
-  background-color: #657495;
+  background-color: lightskyblue;
 }
 
 ul {
@@ -120,8 +119,10 @@ ul li a {
     color: black;
     font-size: 120px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
   }
+  
   
   .comments {
     color: black;
@@ -190,3 +191,5 @@ ul li a {
 .styled-select option {
   padding: 10px;
 }
+
+/* Questionare */
