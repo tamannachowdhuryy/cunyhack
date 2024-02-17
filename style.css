@@ -10,6 +10,23 @@ body {
   margin: 0;
   padding: 0;
 }
+/* section divider */
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightgrey;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+section:nth-child(even) {
+  background-color: white;
+}
+
 /* NAV BAR */
 li,
 a,
@@ -35,19 +52,6 @@ header {
   align-items: center;
   padding: 20px 25px 20px 25px;
   background-color: #bdc3c7;
-position: fixed;
-top: 0;
-z-index: 100;
-width: 100%;
-height: fit-content;
-display: flex;
-border-bottom-style: solid;
-border-bottom-color: white;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 20px 25px 20px 25px;
-background-color: #bdc3c7;
 }
 
 .logo {
@@ -68,11 +72,6 @@ align-items: center;
   flex-direction: row;
   justify-content: space-between;
   align-items: center; /* Remove the extra semicolon here */
-list-style: none;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center; /* Remove the extra semicolon here */
 }
 
 .nav-bar a {
@@ -105,21 +104,20 @@ header .join_button:hover {
 }
 
 ul {
-font-size: 12px;
-padding: initial;
+  font-size: 12px;
+  padding: initial;
 }
 
 ul li {
-display: inline-block;
-white-space: nowrap;
-
+  display: inline-block;
+  white-space: nowrap;
 }
 
 ul li a {
-color: black;
-text-decoration: none;
-padding: 5px 15px;
-letter-spacing: 0.5px;
+  color: black;
+  text-decoration: none;
+  padding: 5px 15px;
+  letter-spacing: 0.5px;
 }
 
 /* CALANDER -> user inputs  */
@@ -190,11 +188,11 @@ letter-spacing: 0.5px;
   button:hover {
     background-color: #6c7fa7;
   }
-/* Style the select element */
+
 .styled-select {
   display: block;
   width: 100%;
-  max-width: 300px; /* Adjust the maximum width as needed */
+  max-width: 300px; 
   margin-top: 8px;
   margin-left: auto;
   margin-right: auto;
@@ -205,9 +203,60 @@ letter-spacing: 0.5px;
   background-color: #fff;
 }
 
-/* Style the options within the select element */
 .styled-select option {
   padding: 10px;
 }
 
-/* Questionare */
+/* calander */
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  vertical-align: top;
+  padding: 0.5rem;
+}
+
+td {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 1rem; 
+  border: 2px solid;
+  min-width: 8rem; 
+}
+
+td span {
+  background-color: var(--pink);
+}
+
+td[data-cell] {
+  height: 8rem; 
+}
+
+.bg-yellow td span {
+  background-color: var(--yellow);
+}
+
+.bg-green td span {
+  background-color: var(--green);
+}
+
+thead th {
+  border-right: 2px solid; 
+}
+
+tbody th {
+  border-top: 2px solid; 
+}
+
+tbody tr:last-child th {
+  border-bottom: 2px solid;
+}
+
+.wrapper {
+  max-width: 60rem; 
+  padding: 0.5rem 1rem; 
+  margin: 0 auto;
+}

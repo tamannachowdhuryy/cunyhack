@@ -2,45 +2,46 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Schedule</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Schedule</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <header>
-        <h1 class="logo">Schedule</h1>
-        <div class="header-RHS">
-          <nav>
-            <ul class="nav-bar">
-              <li><a href="#question">Questionnaire</a></li>
-              <li><a href="#schedule">Schedule</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-    <!-- will ask the user what class they have already taken   -->
-    <section id="question">
-        <div class="header">
-          <h2 class="sub1">Questionnaire</h2>
-          <h3 class="comments">Enter the information to the best of your ability.</h3>
-  
-          <form id="songForm">
-            <!-- Input boxes -->
-            <div class="input-box">
-              <label for="cs_course">What CSCI course do you need to take this semseter?</label>
-              <input type="text" id="cs_course-insertion" required>
-            </div>
-  
-            <div class="input-box">
-              <label for="math_course">What math course do you need to take this semseter?</label>
-              <input type="text" id="math_course-insertion" required>
-            </div>
+  <header>
+      <h1 class="logo">Schedule</h1>
+      <div class="header-RHS">
+        <nav>
+          <ul class="nav-bar">
+            <li><a href="#question">Questionnaire</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  <!-- will ask the user what class they have already taken   -->
+  <section id="question">
+      <div class="header">
+        <h2 class="sub1">Questionnaire</h2>
+        <h3 class="comments">Enter the information to the best of your ability.</h3>
 
-            <div class="input-box">
-              <label for="hunter_course">Which requirements do you need?</label>
-              <select id="hunter_course-insertion" class="styled-select" required multiple>
+        <form id="songForm">
+          <!-- Input boxes -->
+          <div class="input-box">
+            <label for="cs_course">What CSCI course do you need to take this semseter?</label>
+            <input type="text" id="cs_course-insertion" required>
+
+          </div>
+
+          <div class="input-box">
+            <label for="math_course">What math course do you need to take this semseter?</label>
+            <input type="text" id="math_course-insertion" required>
+          </div>
+
+          <div class="input-box">
+            <label for="hunter_course">Which requirements do you need?</label>
+            <select id="hunter_course-insertion" class="styled-select" required multiple>
                   <option value="english101">English Composition 1</option>
                   <option value="english201">English Composition 2</option>
                   <option value="mathematical">Mathematical and Quantitative Reasoning</option>
@@ -52,23 +53,169 @@
                   <option value="individualAndSocietySS">Individual and Society Social Science</option>
                   <option value="individualAndSocietySH">Individual and Society Humanities</option>
               </select>
-          </div>
-  
-            <!-- Enter button -->
-            
-          <button type="button" id="submit" onclick="submitForm()">Enter</button>
-
-  
-          </form>
         </div>
-      </section>
 
-      <section id ="schedule">
+          <!-- Enter button -->
+          
+        <button type="button" id="submit" onclick="submitForm()">Enter</button>
 
-      </section>
+
+        </form>
+      </div>
+    </section>
+
+    <section id ="schedule">
+      
+    </div>
+    <div class="grid">
+      <table>
+        <thead>
+          <th scope="col"></th>
+          <th scope="col">Monday</th>
+          <th scope="col">Tuesday</th>
+          <th scope="col">Wednesday</th>
+          <th scope="col">Thursday</th>
+          <th scope="col">Friday</th>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">7:0am</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr class="bg-yellow">
+            <th scope="row">8:00am</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr class="bg-green">
+            <th scope="row">9:00am</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr>
+            <th scope="row">10:00am</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr>
+            <th scope="row">11:00am</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr>
+            <th scope="row">12:00pm</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr class="bg-green">
+            <th scope="row">1:00pm</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr>
+            <th scope="row">2:00pm</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr>
+            <th scope="row">3:00pm</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr>
+            <th scope="row">4:00pm</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr class="bg-green">
+            <th scope="row">5:00pm</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr>
+            <th scope="row">6:00pm</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr>
+            <th scope="row">7:00pm</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr>
+            <th scope="row">8:00pm</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr>
+            <th scope="row">9:00pm</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+          <tr>
+            <th scope="row">10:00pm</th>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+            <td data-cell></td>
+          </tr>
+        </tbody>
+      </table>
   
+      
+    </section>
+
   
-  <script src="script.js"></script>
+
+
+<script src="script.js"></script>
 </body>
 
 </html>
