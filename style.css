@@ -22,6 +22,19 @@ text-decoration: none;
 }
 
 header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px 20px 25px;
+  background-color: #bdc3c7;
 position: fixed;
 top: 0;
 z-index: 100;
@@ -50,6 +63,11 @@ align-items: center;
 }
 
 .nav-bar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* Remove the extra semicolon here */
 list-style: none;
 display: flex;
 flex-direction: row;
@@ -63,27 +81,27 @@ color: white;
 }
 
 .nav-bar li a:hover {
-color: lightskyblue;
+  color: lightskyblue;
 }
 
 
 header .join_button {
-margin-left: 30px;
-padding: 10px 15px;
-border: none;
-border-radius: 50px;
-cursor: pointer;
-background-color: lightskyblue;
-font-size: 14px;
-font-weight: bold;
-text-transform: uppercase;
-letter-spacing: 1px;
-transition: background-color 0.3s ease, transform 0.2s ease;
-flex-shrink: 0;
+  margin-left: 30px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: lightskyblue;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  flex-shrink: 0;
 }
 
 header .join_button:hover {
-background-color: lightskyblue;
+  background-color: lightskyblue;
 }
 
 ul {
@@ -106,90 +124,90 @@ letter-spacing: 0.5px;
 
 /* CALANDER -> user inputs  */
 #question {
-  text-align: center;
-  font-size: 12px;
-}
-
-.header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.sub1 {
-  color: black;
-  font-size: 120px;
-  text-align: center;
-  margin-top: 70px;
-  margin-bottom: 10px;
-}
-
-
-.comments {
-  color: black;
-  font-size: 15px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.form-container {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.input-box {
-  margin-bottom: 20px;
-
-}
-
-label {
-  color: black;
-  display: block;
-  margin-bottom: 5px;
-}
-
-input {
-  padding: 10px;
-  width: 200px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  color: black;
-  font-size: 9px;
-}
-
-button {
-  padding: 10px;
-  cursor: pointer;
-  background-color: #6f89bf;
-  color: white;
-  border: none;
-  border-radius: 5px;
-
-}
-
-button:hover {
-  background-color: #6c7fa7;
-}
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sub1 {
+    color: black;
+    font-size: 120px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .comments {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+  
+  }
+  
+  label {
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+    font-size: 9px;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #6f89bf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  
+  }
+  
+  button:hover {
+    background-color: #6c7fa7;
+  }
 /* Style the select element */
 .styled-select {
-display: block;
-width: 100%;
-max-width: 300px; /* Adjust the maximum width as needed */
-margin-top: 8px;
-margin-left: auto;
-margin-right: auto;
-padding: 10px;
-font-size: 16px;
-border: 1px solid #ccc;
-border-radius: 5px;
-background-color: #fff;
+  display: block;
+  width: 100%;
+  max-width: 300px; /* Adjust the maximum width as needed */
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
 /* Style the options within the select element */
 .styled-select option {
-padding: 10px;
+  padding: 10px;
 }
 
 /* Questionare */
