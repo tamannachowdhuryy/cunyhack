@@ -1,6 +1,7 @@
 function getSelectedOptions() {
     var selectElement = document.getElementById('pluralism_course-insertion');
     var selectedOptions = selectElement.selectedOptions;
+    var hunter_course = document.getElementById('hunter_course').value;
 
     var selectedValues = Array.from(selectedOptions).map(option => option.value);
 
@@ -42,5 +43,21 @@ function submitForm() {
 }
 
 // calancer
+function updateSchedule(calendarInfo) {
+    console.log('Received calendarInfo:', calendarInfo);
+    var eventTitle = calendarInfo.event_title;
+    var eventDate = calendarInfo.event_date;
+    var eventDescription = calendarInfo.event_description;
 
+    console.log('Updating schedule for event:', eventTitle, 'on', eventDate);
+
+    // Find the appropriate cell in the schedule based on the eventDate and update its content
+    var cell = document.querySelector(`[data-cell][data-day="${eventDate}"]`);
+    if (cell) {
+        cell.textContent = `${eventTitle}: ${eventDescription}`;
+        console.log('Schedule updated successfully.');
+    } else {
+        console.error('Could not find the appropriate cell for the event date:', eventDate);
+    }
+}
 
