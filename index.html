@@ -14,8 +14,10 @@
         <div class="header-RHS">
           <nav>
             <ul class="nav-bar">
+              <li><a href="#profile">Profile</a></li>
               <li><a href="#question">Questionnaire</a></li>
               <li><a href="#schedule">Schedule</a></li>
+              
             </ul>
           </nav>
         </div>
@@ -29,26 +31,47 @@
           <form id="songForm">
             <!-- Input boxes -->
             <div class="input-box">
-              <label for="cs_course">Which CSCI courses do you need to take this semseter?</label>
+              <label for="cs_course">What CSCI course do you need to take this semseter?</label>
               <input type="text" id="cs_course-insertion" required>
             </div>
   
             <div class="input-box">
-              <label for="math_course">Which math course do you need to take this semsester?</label>
+              <label for="math_course">Which math course do you need to take this semseter?</label>
               <input type="text" id="math_course-insertion" required>
             </div>
+
+            <div class="input-box">
+              <label for="hunter_course">What requirements do you need to fulfill?</label>
+              <select id="hunter_course-insertion" class="styled-select" required multiple>
+                  <option value="groupA">Pluralism & Diversity A</option>
+                  <option value="groupB">Pluralism & Diversity B</option>
+                  <option value="groupC">Pluralism & Diversity C</option>
+                  <option value="groupD">Pluralism & Diversity D</option>
+                  <option value="english101">English Composition 1</option>
+                  <option value="english201">English Composition 2</option>
+                  <option value="creativeExpression">Creative Expression</option>
+                  <option value="worldCulture">World Culture and Global Issues</option>
+                  <option value="mathematical">Mathematical and Quantitative Reasoning</option>
+                  <option value="usExperiences">U.S. Experiences in Its Diversity</option>
+                  <option value="individualAndSociety">Individual and Society</option>
+                  <option value="scientificWorld">Scientific World</option>
+              </select>
+          </div>
   
             <!-- Enter button -->
-            <button type = "button" id = "songButton" onclick="submitSongs()">Enter</button>
+            
+          <button type="button" id="submit" onclick="submitForm()">Enter</button>
+
   
           </form>
         </div>
       </section>
-  
+
+      <section id ="schedule">
+
+      </section>
   
   <script src="script.js"></script>
 </body>
 
 </html>
-
-
