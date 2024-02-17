@@ -10,4 +10,4 @@ This project is based on the course selections at CUNY Hunter College for a stud
 **User Input:** Easily input computer science classes, math classes, and common core requirements. \
 **Customization:** Tailor the generated schedule to match individual preferences and academic needs. \
 **Random Selection:** Automatically selects one or two classes from a predefined list based on common core requirements. \
-**Calendar Display:** Presents the generated class schedule in a visually appealing calendar format on a webpage. \
+**Calendar Display:** Presents the generated class schedule in a visually appealing calendar format on a webpage. 
