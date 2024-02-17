@@ -6,8 +6,8 @@ This project aims to simplify the process of creating a class schedule for compu
 
 This project is based on the course selections at CUNY Hunter College for a student majoring in computer science.
 
-##Features
-**User Input:** Easily input computer science classes, math classes, and common core requirements.
-**Customization:** Tailor the generated schedule to match individual preferences and academic needs.
-**Random Selection:** Automatically selects one or two classes from a predefined list based on common core requirements.
-**Calendar Display:** Presents the generated class schedule in a visually appealing calendar format on a webpage.
+## Features
+**User Input:** Easily input computer science classes, math classes, and common core requirements. \
+**Customization:** Tailor the generated schedule to match individual preferences and academic needs. \
+**Random Selection:** Automatically selects one or two classes from a predefined list based on common core requirements. \
+**Calendar Display:** Presents the generated class schedule in a visually appealing calendar format on a webpage. \
