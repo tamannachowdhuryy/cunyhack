@@ -62,42 +62,30 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
     def generate_calendar(self, user_info):
         with open('requirements.csv', 'r') as f:
-            reader = csv.reader(f)
+            reader = csv.DictReader(f)
             data = list(reader)
 
-        headers = data[0]
+        # Filter events for the given user preferences
+        filtered_courses = [course for course in data if course['Course'] == user_info['cs_course']]
 
-        # Find the index of 'Course' column
-        cs_course_index = headers.index('Course')
-
-       
-        filtered_courses = [course for course in data[1:] if course[cs_course_index] == user_info['cs_course']]
-
-        
+        # Initialize calendar_info_list as a list
         calendar_info_list = []
-        other_classes = random.sample([course for course in data[1:] if course[cs_course_index] not in ['csci 127', 'csci 150']], 3)
 
         for course in filtered_courses:
             if user_info['cs_course'] == 'csci 127':
-                # Example: Customize calendar_info for 'csci 127'
+                # Customize calendar_info for 'csci 127'
                 calendar_info = {
+                    "event_date": "2022-02-21",  # Example date
                     "event_title": f"Event for {course['Course']}",
-                    "event_date": "2022-02-20",  
                     "event_time": f"Event for {course['Course']} students"
-            }
-            calendar_info_list.append(calendar_info)
+                }
+                calendar_info_list.append(calendar_info)
 
-        # Add random events for 3 other classes
-        for course in other_classes:
-            calendar_info = {
-                "event_title": f"Event for {course['Course']}",
-                "event_date": "2022-02-21",  
-                "event_time": f"Event for {course['Course']} students"
-            }
-            calendar_info_list.append(calendar_info)
+     
 
 
-            return calendar_info_list
+        return calendar_info_list
+
 
 # Run the server
 port_num = 8000
